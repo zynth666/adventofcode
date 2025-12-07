@@ -64,8 +64,8 @@ void handleLeftTurn(char* str, int value, int *currentDialValueRef, int *counter
 }
 
 int main() {
-    FILE *file = fopen("input.txt", "r");
-    //FILE *file = fopen("smallInput.txt", "r");
+    FILE *file = fopen("../input.txt", "r");
+    //FILE *file = fopen("../smallInput.txt", "r");
 
     if (file == NULL) {
         perror("Error opening file");
